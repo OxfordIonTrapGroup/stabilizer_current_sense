@@ -1,1 +1,3 @@
-Analogue front-end mezzanine for [Stabilizer](https://github.com/sinara-hw/stabilizer) providing current sense (with reference subtraction) and modulation (feedback + feedforward). Originally designed to reduce magnetic field noise in AMO physics experiments. See [Merkel et al.](https://arxiv.org/abs/1808.03310) for details.
+Analogue front-end mezzanine for [Stabilizer](https://github.com/sinara-hw/stabilizer), providing current sense (with reference subtraction) and modulation (feedback + feedforward). Originally designed to reduce magnetic field noise in AMO physics experiments. See [Merkel et al.](https://arxiv.org/abs/1808.03310) for details.
+
+Pre-build schematics, gerbers etc are avaliable in the [releases](https://github.com/OxfordIonTrapGroup/stabilizer_current_sense/releases) section. [sim.ipynb](https://github.com/OxfordIonTrapGroup/stabilizer_current_sense/blob/master/sim.ipynb) contains design notes, noise simulations, etc
