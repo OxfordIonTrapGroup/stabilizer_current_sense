@@ -1,0 +1,22 @@
+[DesignatorManager]
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+DocumentName0=current_stabilizer.SchDoc
+UniqueIDPath0=
+SheetNumber0=1
+DocumentName1=current_frontend.SchDoc
+UniqueIDPath1=\LGNJGVFY
+SheetNumber1=2
+DocumentName2=current_shunts.SchDoc
+UniqueIDPath2=\AUDAQFPS
+SheetNumber2=3
+DocumentName3=power_supplies.SchDoc
+UniqueIDPath3=\OKXLDUEH
+SheetNumber3=4
+DocumentName4=mechanics.SchDoc
+UniqueIDPath4=\NFHGSUUD
+SheetNumber4=5
+
+
