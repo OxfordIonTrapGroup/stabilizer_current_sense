@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for current_stabilizer
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -38,7 +38,24 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=current_stabilizer.SchDoc
+DocumentPath=shunts.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LABXKXLS
+
+[Document2]
+DocumentPath=stabilizer_current_sense.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -54,8 +71,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UAAWIXVS
 
-[Document2]
-DocumentPath=current_frontend.SchDoc
+[Document3]
+DocumentPath=frontend.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -70,23 +87,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FXALVHHI
-
-[Document3]
-DocumentPath=current_shunts.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LABXKXLS
 
 [Document4]
 DocumentPath=power_supplies.SchDoc
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WJSGVPNU
 
 [Document6]
-DocumentPath=current_stabilizer.OutJob
+DocumentPath=stabilizer_current_sense.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,7 +157,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PFAFJXOO
 
 [Document8]
-DocumentPath=current_stabilizer.Annotation
+DocumentPath=stabilizer_current_sense.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -206,6 +206,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MUYHLHKI
+
+[Document11]
+DocumentPath=Z:\PCBs\altium\libraries\CernLib\Eletro-mechanical.DbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=current_stabilizer.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=54C277C9-A7DE-4263-9491-30DDC0A11798
@@ -300,36 +334,32 @@ DocumentPath=Project Outputs for current_stabilizer\NC Drill\current_stabilizer.
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for current_stabilizer\Report Board Stack\current_stabilizer.xls
-DItemRevisionGUID=
-
-[GeneratedDocument21]
 DocumentPath=Project Outputs for current_stabilizer\Design Rule Check - current_stabilizer.html
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for current_stabilizer\Pick Place\Pick Place for current_stabilizer(default).txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjRevision
-Value=1.0
+Name=ProjAddress1
+Value=Department of Physics
 
 [Parameter2]
-Name=ProjOrganization
-Value=Ion Trapping Group
+Name=ProjAddress2
+Value=University of Oxford
 
 [Parameter3]
 Name=ProjAddress3
 Value=UK
 
 [Parameter4]
-Name=ProjAddress2
-Value=University of Oxford
+Name=ProjOrganization
+Value=Ion Trapping Group
 
 [Parameter5]
-Name=ProjAddress1
-Value=Department of Physics
+Name=ProjRevision
+Value=1.0
 
 [Configuration1]
 Name=Sources
@@ -342,7 +372,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for current_stabilizer
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
