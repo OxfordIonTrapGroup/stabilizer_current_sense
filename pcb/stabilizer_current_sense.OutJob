@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=current_stabilizer.OutJob
+Name=stabilizer_current_sense.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=default
@@ -72,7 +72,7 @@ Configuration2_Item1=Record=SchPrintView|ShowNoERC=False|ShowParamSet=True|ShowP
 OutputType3=ExportSTEP
 OutputName3=Export STEP
 OutputCategory3=Export
-OutputDocumentPath3=current_stabilizer.PcbDoc
+OutputDocumentPath3=
 OutputVariantName3=default
 OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
@@ -253,7 +253,7 @@ Configuration11_Item1=Record=LayerStackReportView|Units=Imperial
 [PublishSettings]
 OutputFilePath2=Project Outputs for Free Documents\.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for current_stabilizer
+OutputBasePath2=Project Outputs for stabilizer_current_sense
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -278,9 +278,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\scratch\tph\stabilizer_current_sense\pcb\Project Outputs for current_stabilizer\
+OutputFilePath3=C:\scratch\tph\stabilizer_current_sense\pcb\Project Outputs for stabilizer_current_sense\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for current_stabilizer
+OutputBasePath3=Project Outputs for stabilizer_current_sense
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -293,7 +293,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for current_stabilizer
+OutputBasePath4=Project Outputs for stabilizer_current_sense
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -332,7 +332,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=Project Outputs for Free Documents\.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\scratch\tph\stabilizer_current_sense\pcb\Project Outputs for current_stabilizer\
+RelativeOutputPath3=C:\scratch\tph\stabilizer_current_sense\pcb\Project Outputs for stabilizer_current_sense\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
